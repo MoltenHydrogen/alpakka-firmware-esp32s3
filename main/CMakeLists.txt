@@ -1,0 +1,33 @@
+set(srcs 
+        "imu.c" 
+        "bus.c" 
+        "main.c" 
+        "button.c" 
+        "config.c" 
+        "dhat.c" 
+        "gyro.c" 
+        "helper.c" 
+        "hid.c" 
+        "led.c" 
+        "nvm.c" 
+        "profile.c" 
+        "rotary.c" 
+        "thanks.c" 
+        "thumbstick.c" 
+        "touch.c" 
+        "tusb_config.c" 
+        "uart.c" 
+        "xinput.c"
+        "profiles/console_legacy.c"
+        "profiles/console.c"
+        "profiles/desktop.c"
+        "profiles/fps_fusion.c"
+        "profiles/fps_wasd.c"
+        "profiles/home.c"
+        "profiles/none.c")
+set(include_dirs
+        "."
+        "headers"
+        "profiles") 
+
+idf_component_register(SRCS "${srcs}" INCLUDE_DIRS "${include_dirs}")

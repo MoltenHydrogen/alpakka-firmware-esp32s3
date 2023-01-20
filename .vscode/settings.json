@@ -19,5 +19,6 @@
         "hid_device.h": "c",
         "tinyusb.h": "c",
         "hid.h": "c"
-    }
+    },
+    "git.ignoreLimitWarning": true
 }

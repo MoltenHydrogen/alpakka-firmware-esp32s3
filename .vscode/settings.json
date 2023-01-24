@@ -18,7 +18,8 @@
         "usbd.h": "c",
         "hid_device.h": "c",
         "tinyusb.h": "c",
-        "hid.h": "c"
+        "hid.h": "c",
+        "stdbool.h": "c"
     },
     "git.ignoreLimitWarning": true
 }

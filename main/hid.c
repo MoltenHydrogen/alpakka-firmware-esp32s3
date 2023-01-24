@@ -6,6 +6,7 @@
 #include <tinyusb.h>
 #include <class/hid/hid_device.h>
 #include <esp_timer.h>
+#include "headers/tusb_config.h"
 #include "headers/config.h"
 #include "headers/hid.h"
 #include "headers/profile.h"

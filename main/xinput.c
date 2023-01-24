@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: GPL-2.0-only
 // Copyright (C) 2022, Input Labs Oy.
 
-#include <tusb.h>
+#include <tinyusb.h>
 #include <device/usbd_pvt.h>
 #include "xinput.h"
 #include "tusb_config.h"

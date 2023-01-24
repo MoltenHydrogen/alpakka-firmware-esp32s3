@@ -3,6 +3,7 @@
 
 #include <tusb_config.h>
 #include <tinyusb.h>
+#include <class/hid/hid_device.h>
 #include <device/usbd.h>
 #include "config.h"
 
